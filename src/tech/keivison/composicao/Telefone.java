@@ -2,7 +2,7 @@ package tech.keivison.composicao;
 
 public class Telefone {
     private int ddd;
-    private int numero;
+    private String numero;
 
     public int getDdd() {
         return ddd;
@@ -12,11 +12,11 @@ public class Telefone {
         this.ddd = ddd;
     }
 
-    public int getNumero() {
+    public String getNumero() {
         return numero;
     }
 
-    public void setNumero(int numero) {
+    public void setNumero(String numero) {
         this.numero = numero;
     }
 }
